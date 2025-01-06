@@ -1,14 +1,18 @@
 # AI_Navigator
 
 Steps : 
-python3 -m venv venv
-. venv/bin/activate
 
-pip install -r requirements.txt
+1. Create Virtual env : python3 -m venv venv
 
-Your ASSISTANT_ID  and API_KEY in .env file
+2. Switch to virtual env : . venv/bin/activate
 
-Exit virtual env : deactivate
+3. Install packages : pip install -r requirements.txt
+
+4. Usage of .env : Your ASSISTANT_ID  and API_KEY in .env file
+
+5. python3  assistant_chat_filesearch.py
+
+6. Exit virtual env : deactivate
 
 
 
