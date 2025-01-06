@@ -8,6 +8,7 @@ assistant_id = os.getenv("ASSISTANT_ID")
 #vector_id = os.getenv("VECTOR_ID")
 client = OpenAI(api_key=key)
 
+# Refer create_assistant_vector_space.py for one time creation of assistant and vector store 
 # Create Vector Store
 #vector_store = client.beta.vector_stores.create(name="Vigilia Runbooks Knowledge Base")
 #print(f"Vector Store Id - {vector_store.id}")
