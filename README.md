@@ -1,6 +1,18 @@
 # AI_Navigator
 
-API Reference : 
+Steps : 
+python3 -m venv venv
+. venv/bin/activate
+
+pip install -r requirements.txt
+
+Your ASSISTANT_ID  and API_KEY in .env file
+
+Exit virtual env : deactivate
+
+
+
+**API Reference : **
 
 Openai api reference :
 
