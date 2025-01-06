@@ -7,6 +7,10 @@ key = os.getenv("OPEN_AI_API_KEY")
 
 client = OpenAI(api_key=key)
 assistant = os.getenv("ASSISTANT_ID")
+
+# Uncomment Create assistant code if there is no assistant created . This is one time step . Once created assitant ID 
+#can be retrived from .env or by using retrieve assistant API
+
 # --------------------------------------------------------------
 # Create assistant
 # --------------------------------------------------------------
@@ -22,8 +26,8 @@ assistant = os.getenv("ASSISTANT_ID")
 
 print(assistant)
 
-
-    # Create Vector Store
+# Vector store and linking of assistant and vector store should be done one time .
+# Create Vector Store
 vector_store = client.beta.vector_stores.create(name="Vigilia Runbooks Knowledge Base_test")
 print(f"Vector Store Id - {vector_store.id}")
  
