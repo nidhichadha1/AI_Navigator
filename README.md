@@ -13,6 +13,7 @@ https://github.com/openai/openai-go
 
 Example Code :
 https://github.com/openai/openai-go/blob/main/examples/beta/assistants/main.go
+
 https://github.com/openai/openai-go/blob/main/examples/beta/vectorstorefilebatch/main.go
 
 
